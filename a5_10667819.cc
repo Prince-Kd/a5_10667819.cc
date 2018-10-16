@@ -18,7 +18,7 @@ int main()
     studentType student[6];
     ofstream file("myfile.txt", ios::app);
     cout<<"Enter the following details for 5 students"<<endl;
-    cout<<"IDNumber ,Name ,Age ,Gender ,Score ,Grade"<<endl;
+    cout<<"IDNumber ,Name ,Age ,Gender ,Score"<<endl;
     file<<"   IDNumber      Name           Age    Gender     Score   Grade"<<endl;
     file<<"**********************************************************************"<<endl;
     for(int i=1; i<=5; i++)
